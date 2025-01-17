@@ -1,4 +1,6 @@
 ---
+import Header from "../components/Header.astro";
+import Base from "../layouts/Base.astro";
 ---
 <!doctype html>
 <html lang="en">
@@ -6,9 +8,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <title>Accueil</title>
+        <Base titre="Accueil">
+			<h1>Offres</h1> <!-- ou "Offres" pour la page des offres -->
+		</Base>
     </head>
-    <body>
-        <h1>Properties to rent</h1>
-    </body>
 </html>
