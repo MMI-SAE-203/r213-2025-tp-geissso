@@ -1,6 +1,7 @@
 ---
-import Header from "../components/Header.astro";
+import Card from "../components/Card.astro";
 import Base from "../layouts/Base.astro";
+import Header from "../components/Header.astro";
 const offres = [
     {
         "adresse": "2821 Lake Sevilla, Palm Harbor, TX",
@@ -42,7 +43,7 @@ const offres = [
 			<h1>Offres</h1> 
 			<ul>
 				{offres.map((offre) => (
-				  <li>{offre.nomMaison}</li>
+				 <Card  />
 				))}
 			  </ul>
 		</Base>
