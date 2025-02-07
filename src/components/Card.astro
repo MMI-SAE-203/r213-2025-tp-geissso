@@ -10,5 +10,6 @@ const offre = Astro.props;
     <p>{offre.adresse}</p>
     <p>{offre.prix}</p>
     <p>{offre.surface} m² - {offre.nbChambres} chambres - {offre.nbSdb} salles de bain</p>
+    <a href={`/offres/${offre.id}`}>Voir plus</a>
 </div>
 </li>

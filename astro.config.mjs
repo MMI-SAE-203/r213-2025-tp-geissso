@@ -11,5 +11,6 @@ import alpinejs from '@astrojs/alpinejs';
 export default defineConfig({
   integrations: [tailwind(), alpinejs()],
   adapter: netlify(),
+  output: 'server',
   experimental:{svg:true}
 });
